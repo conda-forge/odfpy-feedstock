@@ -14,9 +14,7 @@ Summary: Python API and tools to manipulate OpenDocument files.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/odfpy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/odfpy-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/odfpy-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/odfpy-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/odfpy-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/odfpy-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/odfpy-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/odfpy-feedstock)
 
 Current release info
 ====================
