@@ -9,16 +9,17 @@ source:
   sha256: 596021f0519623ca8717331951c95e3b8d7b21e86edc7efe8cb650a0d0f59a2b
 
 build:
+  number: 1
   noarch: python
-  number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
     - python
+    - defusedxml
 
 test:
   imports:
@@ -28,7 +29,7 @@ about:
   home: https://github.com/eea/odfpy
   license: Apache-2.0
   license_file: APACHE-LICENSE-2.0.txt
-  summary: 'Python API and tools to manipulate OpenDocument files.'
+  summary: 'Python API and tools to manipulate OpenDocument files'
 
 extra:
   recipe-maintainers:
