@@ -1,4 +1,4 @@
-{% set version = "1.4.0" %}
+{% set version = "1.4.1" %}
 
 package:
   name: odfpy
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/o/odfpy/odfpy-{{ version }}.tar.gz
-  sha256: 596021f0519623ca8717331951c95e3b8d7b21e86edc7efe8cb650a0d0f59a2b
+  sha256: db766a6e59c5103212f3cc92ec8dd50a0f3a02790233ed0b52148b70d3c438ec
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
